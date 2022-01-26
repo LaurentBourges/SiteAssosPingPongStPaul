@@ -1,0 +1,13 @@
+.container-fluid, .container, .row {
+  border: 1px solid black;
+}
+.col {
+  background-color: aqua;
+}
+
+.NomClub {
+  font-size: 3.5vw;
+  text-align: center;
+  font-family: 'Mochiy Pop P One', sans-serif;
+
+}
