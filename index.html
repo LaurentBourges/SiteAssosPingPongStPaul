@@ -14,19 +14,47 @@
   </head>
   <body class="container-fluid">
     <header class="row align-items-center"> <!-- Header sur 1 row et 2 col -->
-      <div class="col">
+      <div class="col-6">
         <div class="row"> <!-- 1ère col décomposée en 2 col -->
-          <div class="col">
-            <img class="Logo img-fluid" src="img/logo-pingpong.jpg" alt="Logo du Club"> 
+          <div class="col">         
+            <a href="index.html"><img class="Logo img-fluid" src="img/logo-pingpong.jpg" alt="Logo du Club"> 
               <!-- image dimensionnée pour limiter son temps de chargement -->
+            </a>
           </div>
           <div class="NomClub col align-self-center px-0">
             <p class="my-0">Ping-Pong<br>St-Paul</p>
           </div>
         </div>
       </div>
-      <nav class="col text-center"> <!-- Menu centré sur la col -->
-        <h6>Présentation Lieu/Horaires Evènements Contact</h6> <!-- Menu Navbar -->
+      <nav class="col navbar navbar-expand-sm justify-content-center"> <!-- Menu Navbar -->
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle Navigation">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+          </svg> MENU
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Présentation</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Lieu/Horaires</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Evènements</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
     <main class="container">
@@ -52,9 +80,15 @@
       </p>
       <p class="col text-center">Copyright 2022</p>
     </footer>
-  <!-- lien local jQuery -->
-  <script src="jquery-3.4.1.min.js"></script>
-  <!-- lien local Bootstrap JavaScript -->
-  <script src="bootstrap.bundle.min.js"></script>
+  <!-- liens CDN -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" 
+  crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+  crossorigin="anonymous"></script>
   </body>
 </html>

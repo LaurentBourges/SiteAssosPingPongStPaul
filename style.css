@@ -6,8 +6,21 @@
 }
 
 .NomClub {
-  font-size: 3.5vw;
+  font-size: 3.3vw;
   text-align: center;
   font-family: 'Mochiy Pop P One', sans-serif;
-
+}
+.navbar {
+  font-family: 'Mochiy Pop P One', sans-serif;
+  font-size: 1.2vw;
+}
+.navbar-toggler {
+  font-size: 2vw;
+}
+.nav-link {
+  padding: 0;
+}
+.nav-item {
+  text-align: center;
+  line-height: 2em;
 }
