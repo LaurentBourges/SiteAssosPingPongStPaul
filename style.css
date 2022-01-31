@@ -1,14 +1,16 @@
-.container-fluid, .container, .row {
+/*.container-fluid, .container, .row {
   border: 1px solid black;
-}
-.col {
-  background-color: aqua;
+} */
+header {
+  background-color: #00BFFF;
+  border: 5px solid #3033a8;
 }
 
-.NomClub {
+.NomClub p {
   font-size: 3.3vw;
   text-align: center;
   font-family: 'Mochiy Pop P One', sans-serif;
+  color: #3033a8;
 }
 .navbar {
   font-family: 'Mochiy Pop P One', sans-serif;
@@ -16,11 +18,37 @@
 }
 .navbar-toggler {
   font-size: 2vw;
+  color: #3033a8;
 }
 .nav-link {
   padding: 0;
+  color: #3033a8;
 }
 .nav-item {
   text-align: center;
   line-height: 2em;
 }
+h2 {
+  font-size: 2.5vw;
+  background-color: #f83531;
+  color: white;
+  margin-bottom: 0;
+  margin-top: 1vw;
+  line-height: 4vw;
+}
+main {
+  background-color: #00BFFF;
+}
+footer {
+  background-color: #8B4513;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: #3033a8;
+}
+/* Couleurs :   #989ef2 bleu clair
+                #f83531 rouge
+                #652621 marron
+                #3033a8 bleu
+                #b69562 beige */
+
