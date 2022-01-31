@@ -44,7 +44,12 @@ footer {
 }
 p {
   font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
   color: #3033a8;
+}
+img {
+  float: left;
+  width: 500px;
 }
 /* Couleurs :   #989ef2 bleu clair
                 #f83531 rouge
