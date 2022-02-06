@@ -14,7 +14,7 @@ header {
 }
 .navbar {
   font-family: 'Mochiy Pop P One', sans-serif;
-  font-size: 1.2vw;
+  font-size: 1.4vw;
 }
 .navbar-toggler {
   font-size: 2vw;
@@ -47,13 +47,13 @@ p {
   font-size: 1em;
   color: #3033a8;
 }
-img {
+div.container {
+  margin: 15px 10px 0px;
+  max-width: 510px;
   float: left;
-  width: 500px;
 }
-/* Couleurs :   #989ef2 bleu clair
-                #f83531 rouge
-                #652621 marron
-                #3033a8 bleu
-                #b69562 beige */
+.carousel {
+  border-radius: 5%;
+  overflow: hidden;
+}
 
