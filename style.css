@@ -2,8 +2,9 @@
   border: 1px solid black;
 } */
 header {
-  background-color: #00BFFF;
-  border: 5px solid #3033a8;
+  background-color: #009ddc;
+  border: 5px solid #1e3231;
+  border-radius: 10px;
 }
 
 .NomClub p {
@@ -30,17 +31,21 @@ header {
 }
 h2 {
   font-size: 2.5vw;
-  background-color: #f83531;
+  background-color: #d52941;
   color: white;
   margin-bottom: 0;
   margin-top: 1vw;
   line-height: 4vw;
 }
 main {
-  background-color: #00BFFF;
+  background-color: #009ddc;
 }
 footer {
-  background-color: #8B4513;
+  background-color: #fcba04;
+}
+footer p, a {
+  color: white;
+  font-size: .8em;
 }
 p {
   font-family: 'Montserrat', sans-serif;
