@@ -8,7 +8,7 @@ header {
 }
 
 .NomClub p {
-  font-size: 3.3vw;
+  font-size: 3vw;
   text-align: center;
   font-family: 'Mochiy Pop P One', sans-serif;
   color: #3033a8;
@@ -29,7 +29,7 @@ header {
   text-align: center;
   line-height: 2em;
 }
-h2 {
+h1 {
   font-size: 2.5vw;
   background-color: #d52941;
   color: white;
@@ -39,13 +39,17 @@ h2 {
 }
 main {
   background-color: #009ddc;
+  position: relative;
+
 }
 footer {
   background-color: #fcba04;
+  border: 3px solid #1e3231;
+  position:relative
 }
 footer p, a {
   color: white;
-  font-size: .8em;
+  font-size: .9em;
 }
 p {
   font-family: 'Montserrat', sans-serif;

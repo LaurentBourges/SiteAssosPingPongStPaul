@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PingPongStPaul</title>
+    <title>PingPongStPaul-Présentation</title>
     <meta name="description" content="Le Site web de l'association de Tennis de Table de la ville
-      de Saint-Paul"> <!-- Description de la page de 150 à 160 caractères -->
+      de Saint-Paul - Présentation"> <!-- Description de la page de 150 à 160 caractères -->
     <!-- lien CDN Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
@@ -24,7 +24,7 @@
       rel="stylesheet">
   </head>
   <body class="container-fluid">
-    <header class="row align-items-center"> <!-- Header sur 1 row et 2 col -->
+    <header class="row align-items-center sticky-top"> <!-- Header sur 1 row et 2 col -->
       <div class="col-6">
         <div class="row"> <!-- 1ère col décomposée en 2 col -->
           <div class="col">         
@@ -72,31 +72,31 @@
     </header>
     <main class="container">
       <div class="row">
-        <h2 class="col text-center">Présentation</h2>
+        <h1 class="col text-center">Présentation</h1>
       </div>
       <section class="row">
         <article class="container">
           <div class="container px-0 mt-4 ml-0 mr-3 mb-2">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
-              <!-- Indicators -->
+              <!-- Indicateurs -->
               <ol class="carousel-indicators">
                   <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                   <li data-target="#myCarousel" data-slide-to="1"></li>
                   <li data-target="#myCarousel" data-slide-to="2"></li>
               </ol> 
-              <!-- Wrapper for slides -->
+              <!-- Caroussel avec images optimisées pour limiter le temps de chargement -->
               <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="img/table-tennis01.jpg"
-                        alt="" style="width:100%;">
+                        alt="Joueur de tennis de table en action" style="width:100%;">
                 </div> 
                 <div class="carousel-item">
                     <img src="img/table-tennis02.jpg"
-                        alt="" style="width:100%;">
+                        alt="Joueur de tennis de table en action" style="width:100%;">
                 </div>
                 <div class="carousel-item">
                   <img src="img/table-tennis03.jpg"
-                      alt="" style="width:100%;">
+                      alt="Joueur de tennis de table en action" style="width:100%;">
                 </div>
               </div>
             </div>
@@ -125,8 +125,9 @@
         </article>
       </section>
     </main>
-    <footer class="row align-items-center pb-1">
-      <p class="col text-center mb-0">Nous suivre sur les réseaux sociaux<br>
+    <footer class="row align-items-center">
+      <p class="col text-center mb-0">Nous suivre sur les réseaux sociaux
+        <!-- Liens logos des réseaux sociaux -->
         <a href="#" class="mx-1">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" 
           class="bi bi-facebook" viewBox="0 0 16 16">
