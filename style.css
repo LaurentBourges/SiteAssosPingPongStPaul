@@ -1,12 +1,8 @@
-/*.container-fluid, .container, .row {
-  border: 1px solid black;
-} */
 header {
   background-color: #009ddc;
   border: 5px solid #1e3231;
   border-radius: 10px;
 }
-
 .NomClub p {
   font-size: 3vw;
   text-align: center;
@@ -29,6 +25,10 @@ header {
   text-align: center;
   line-height: 2em;
 }
+main {
+  background-color: #009ddc;
+  position: relative;
+}
 h1 {
   font-size: 2.5vw;
   background-color: #d52941;
@@ -45,10 +45,10 @@ h2 {
 h3 {
   font-size: 1.1em;
 }
-main {
-  background-color: #009ddc;
-  position: relative;
-
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  color: #3033a8;
 }
 footer {
   background-color: #fcba04;
@@ -58,11 +58,6 @@ footer {
 footer p, a {
   color: white;
   font-size: .9em;
-}
-p {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1em;
-  color: #3033a8;
 }
 div.container {
   margin: 15px 10px 0px;
@@ -75,4 +70,12 @@ div.container {
 }
 .card {
   max-width: 350px;
+}
+label {
+  font-weight: bold;
+  color: #3033a8;
+}
+.btn {
+  background-color: #3033a8;
+  color: white;
 }
